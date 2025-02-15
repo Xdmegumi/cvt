@@ -1,5 +1,7 @@
 name: update_rules.ts
 on:
+  push:
+  pull_request:
   workflow_dispatch:
   schedule:
     - cron: 0 1 * * 1
